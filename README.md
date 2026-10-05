@@ -1,11 +1,29 @@
-# GGT Cannabis Transport — Market Analysis Hub
+# Going Green Transport (GGT) — Market Analysis Hub
 
-A resource hub for the **cannabis transport** market: a structural market analysis plus a home for
-presentation **decks** and working **docs**, versioned in one repo and published as a static site via
-**GitHub Pages**.
+A resource hub for **Going Green Transport**'s cannabis logistics strategy: a structural market
+analysis, presentation **decks**, and working **docs**, versioned in one repo and published as a
+static site via **GitHub Pages**. _Seed to sale, we never fail._
 
 🔗 **Live hub:** `https://delta9-digital.github.io/hub.ggt-canabis-transport-market-analysis/`
-_(available once GitHub Pages finishes its first build)_
+
+## Brand system
+
+The hub uses the **GGT brand system** (Going Green Transport):
+
+| | |
+|---|---|
+| Forest green (bg) | `#133f2d` |
+| Cream (text / solid fills) | `#efe8d8` |
+| Lime (primary accent) | `#bbfd6a` |
+| Amber / gold (mono labels) | `#c9a66b` |
+| Display font | Bricolage Grotesque (800) |
+| Body font | Inter |
+| Label / mono font | DM Mono (uppercase, letter-spaced) |
+
+> These tokens were extracted from the GGT `Vehicle Investment: Market Analysis` deck (a Claude
+> Design export). The canonical brand source is the Claude Design project
+> `claude.ai/design/p/14e648b0-…`; syncing directly to it needs `/design-login` in an interactive
+> session. See `assets/styles.css` for the token definitions.
 
 ---
 
@@ -14,6 +32,7 @@ _(available once GitHub Pages finishes its first build)_
 | Path | Purpose |
 |---|---|
 | `index.html` | The hub landing page (GitHub Pages entry point). |
+| `decks/ggt-vehicle-investment-market-analysis.html` | GGT vehicle-investment deck (18 slides, self-contained, interactive). |
 | `docs/market-analysis/` | Starter market analysis — markdown source + a styled viewer page. |
 | `docs/` | Working docs. Markdown renders automatically via the viewer pattern. |
 | `decks/` | Presentation decks (PDF / PPTX / Keynote exports). |

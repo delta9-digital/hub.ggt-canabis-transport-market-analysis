@@ -1,6 +1,12 @@
 # Decks
 
-Presentation decks for the cannabis transport market analysis.
+Presentation decks for Going Green Transport's market analysis.
+
+## In this folder
+- [`ggt-vehicle-investment-market-analysis.html`](ggt-vehicle-investment-market-analysis.html) —
+  **Vehicle Investment: Market Analysis** (18 slides, self-contained interactive HTML). The
+  reefer-vs-ambient fleet decision, cultivation cold-chain, and the hemp-beverage opportunity.
+  Prepared for Joshua & Hans. This deck is also the source of the hub's GGT brand tokens.
 
 ## Convention
 - **Drop files here** — prefer **PDF** exports (render in-browser, portable). `.pptx` / `.key`
